@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(124, 121, 121);
+}
+
+header{
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+    margin: 2%;
+}
+
+#input-form{
+    text-align: center;
+}
+
+#input-data{
+    border-radius: 5px;
+    font-size: larger;
+}
+
+label{
+    color: white;
+    font-size: larger;
+    
+}
+
+#priority-form{
+    border-radius: 5px;
+    font-size: larger;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+button{
+    background-color: aquamarine;
+    color: white;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#priority {
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+#priority option{
+    font-size: larger;
+}
+
+#products{
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    flex-wrap: wrap ;
+}
+
+.Laptops img{
+    height: 150px;
+    width: 180px;
+    margin-bottom: 2%;
+}
+
+.Mobiles img{
+    height: 150px;
+    width: 180px;
+    margin-bottom: 2%;
+}
+
+.Headphones img{
+    height: 150px;
+    width:180px;
+    margin-bottom: 2%;
+}
+
+#products div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Laptops{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.Headphones{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.Mobiles{
+    margin-top: 2%;
+    margin-left: 2%;
+}

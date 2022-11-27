@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Filterable Gallery</h1>
+    </header>
+    <h2>Add Product</h2>
+    <form id="input-form">
+        <label for="URL">Enter Image URL</label>
+        <input id="input-data" required placeholder="Paste Your Link Here">
+        <label for="select">Select Type</label>
+        <Select name="priority" id="priority">
+            <option value="Laptops">Laptops</option>
+            <option value="Mobiles">Mobiles</option>
+            <option value="Headphones">Headphones</option>
+        </Select>
+        <button type="submit">Add</button>
+    </form>
+    <form id="priority-form">
+        <label for="priority-set">Filter Products</label>
+        <select name="priority" id="priority">
+            <option value="All">All</option>
+            <option value="Headphones">Headphones</option>
+            <option value="Laptops">Laptops</option>
+            <option value="Mobiles">Mobiles</option>
+        </select>
+    </form>
+    <div id="products"></div>
+    <script src="script.js"></script>
+</body>
+</html>
